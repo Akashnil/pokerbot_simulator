@@ -2,7 +2,7 @@ from hand_rankings import *
 
 class GameRules:
 	num_players = 4
-	stack_size = 400 # in small blinds
+	stack_size = 200 # in small blinds
 
 class Action:
 	enum = None # 'deal', 'fold', 'call', 'bet', 'open' open means flop / turn / river
@@ -119,7 +119,9 @@ class GameState:
 	def net_winnings(self):
 		if not self.winners:
 			self.find_current_winners()
-		winning = self.pot // len(self.winners) # In rare cases net winning may be fractional
+		winning = self.pot / len(self.winners) # In rare cases net winning may be fractional
+		if int(winning) == winning:
+			winning = int(winning)
 		net = [-x for x in self.player_chips]
 		for x in self.winners:
 			net[x-1] += winning
@@ -186,9 +188,11 @@ class GameState:
 			self.pot += extra
 			self.acting_player = self.get_next_player()
 
+import math
+
 class Player:
 	num_hands = 0
-	mean_won = 0.
+	mean = 0.
 	variance_sum = 0.
 
 	def take_action(self, game_state):
@@ -202,14 +206,14 @@ class Player:
 		delta_ = amount - self.mean
 		self.variance_sum += delta * delta_
 
+	def stats(self):
+		return self.num_hands, self.mean, math.sqrt(self.variance_sum / self.num_hands)
+
 import random
 
-class Dealer(Player):
-	seed = 0
+random.seed = 5
 
-	def __init__(self, seed = 10):
-		self.seed = seed
-		random.seed(seed)
+class Dealer(Player):
 
 	def draw_card(self, game_state):
 		while True:
@@ -251,11 +255,6 @@ class Dealer(Player):
 class RandomPlayer(Player):
 	# If the player can check, they will check with probability 3/4, bet with probability 1/4
 	# If the player is facing a bet, they will fold 1/4 time, call 1/2 time, raise half pot 1/4 times.
-	seed = 0
-
-	def __init__(self, seed = 10):
-		self.seed = seed
-		random.seed(seed)
 
 	def get_blind_action(self, game_state):
 		if game_state.pot < 2:
@@ -275,15 +274,23 @@ class RandomPlayer(Player):
 		acting_player = game_state.acting_player
 		choice = random.randrange(4)
 		if game_state.price == game_state.player_chips[acting_player-1]:
-			if choice < 1:
+			if choice < 1 and game_state.price < game_state.rules.stack_size:
 				action.enum = 'bet'
 				action.amount = game_state.pot // 2
+				if action.amount < 2:
+					action.amount = 2
+				if action.amount + game_state.price > game_state.rules.stack_size:
+					action.amount = game_state.rules.stack_size - game_state.price
 			else:
 				action.enum = 'call'
 			return action
-		if choice < 1:
+		if choice < 1 and game_state.price < game_state.rules.stack_size:
 			action.enum = 'bet'
 			action.amount = game_state.pot // 2
+			if action.amount < 2:
+				action.amount = 2
+			if action.amount + game_state.price > game_state.rules.stack_size:
+				action.amount = game_state.rules.stack_size - game_state.price
 		elif choice < 3:
 			action.enum = 'call'
 		else:
@@ -306,8 +313,11 @@ class SequentialActionGame:
 
 	def next_action(self, string = False):
 		if self.game_state.is_terminal():
+			net = self.game_state.net_winnings()
+			for p in range(1, len(self.players)):
+				self.players[p].inform_winning(net[p-1])
 			return None
-		acting_player = players[self.game_state.acting_player]
+		acting_player = self.players[self.game_state.acting_player]
 		action = acting_player.take_action(self.game_state)
 		if string:
 			return_string = action.readable_string(self.game_state)
@@ -324,14 +334,21 @@ simulator.register_players(players)
 
 simulator.reset_game_state()
 
-for i in range(50):
+for i in range(1000000):
 	simulator.reset_game_state()
 	while True:
 		p = simulator.game_state.acting_player
 		act = simulator.next_action(True)
 		if not act:
-			print (simulator.game_state.results_string())
-			print ()
+			if i < 1000:
+				print ('#' + '{:<4}'.format(str(i)) + simulator.game_state.results_string())
 			break
 		else:
-			print (act)
+			# print (act)
+			continue
+
+print ('stats: (count, mean, stdev)')
+
+for p in range(1, 5):
+	print ('p' + str(p) + ' statistics ' + str(players[p].stats()))
+
