@@ -25,7 +25,7 @@ def hand_value(cards):
 
 	sflush = find_straight(cards)
 	if sflush:
-		return 0, tuple([sflush+i for i in range(5)])
+		return 0, tuple([sflush])
 
 	ranks = [cd % 13 for cd in cards]
 	ranks = sorted(ranks)
@@ -62,7 +62,7 @@ def hand_value(cards):
 
 	straight = find_straight(sorted(list(set(ranks))))
 	if straight:
-		return 4, tuple([straight+i for i in range(5)])
+		return 4, tuple([straight])
 
 	if best_group[0] == -3:
 		kickers = [rnk for rnk in ranks if rnk != best_group[1]]
