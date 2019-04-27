@@ -84,12 +84,12 @@ def card_string(num):
 	rank = num % 13
 	return rank_letter[rank] + suit_letter[suit]
 
-'''
-#Testing code below
 
+#Testing code below
+'''
 import numpy
 
-num_trials = 25
+num_trials = 500
 # Here we are testing the hand rankings of num_trials random collections of cards. Half the trials have 7 cards,
 # other half have a random  number of cards from 2 to 6.
 
@@ -103,5 +103,4 @@ for trials in range(num_trials):
 	readable_cards = ' '.join([card_string(cd) for cd in cards])
 	readable_cards = "{:<25}".format(readable_cards)
 	print(readable_cards, value[0], value[1])
-
 '''
