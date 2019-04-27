@@ -60,7 +60,7 @@ def hand_value(cards):
 			# found the flush
 			return 3, tuple([x % 13 for x in cards[i:i+5]])
 
-	straight = find_straight(list(set(ranks)))
+	straight = find_straight(sorted(list(set(ranks))))
 	if straight:
 		return 4, tuple([straight+i for i in range(5)])
 
@@ -86,7 +86,7 @@ def card_string(num):
 
 
 #Testing code below
-
+'''
 import numpy
 
 num_trials = 500
@@ -104,3 +104,4 @@ for trials in range(num_trials):
 	readable_cards = "{:<25}".format(readable_cards)
 	print(readable_cards, value[0], value[1])
 
+'''
