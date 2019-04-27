@@ -1,0 +1,1221 @@
+p1 DEALT 4dQs
+p2 DEALT KdTd
+p3 DEALT AsAh
+p4 DEALT Jd9d
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2             PRICE 2     POT 5     
+p4 CALL 2             PRICE 2     POT 7     
+p1 CALL 1    BET 3    PRICE 5     POT 11    
+p2 FOLDS
+p3 CALL 3             PRICE 5     POT 14    
+p4 CALL 3    BET 7    PRICE 12    POT 24    
+p1 CALL 7             PRICE 12    POT 31    
+p3 CALL 7             PRICE 12    POT 38    
+FLOP Ad6s2d
+p1 CALL 0             PRICE 12    POT 38    
+p3 CALL 0             PRICE 12    POT 38    
+p4 CALL 0             PRICE 12    POT 38    
+TURN 9h
+p1 CALL 0             PRICE 12    POT 38    
+p3 CALL 0             PRICE 12    POT 38    
+p4 CALL 0             PRICE 12    POT 38    
+RIVER Tc
+p1 CALL 0             PRICE 12    POT 38    
+p3 CALL 0             PRICE 12    POT 38    
+p4 CALL 0             PRICE 12    POT 38    
+p[3] WINS 38 NET PROFIT [-12, -2, 26, -12]
+
+p1 DEALT Jd4c
+p2 DEALT QhQd
+p3 DEALT Ac3h
+p4 DEALT Qs3d
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2    BET 1    PRICE 3     POT 6     
+p4 CALL 3             PRICE 3     POT 9     
+p1 CALL 2             PRICE 3     POT 11    
+p2 CALL 1             PRICE 3     POT 12    
+FLOP 8h6d4h
+p1 CALL 0             PRICE 3     POT 12    
+p2 CALL 0             PRICE 3     POT 12    
+p3 CALL 0             PRICE 3     POT 12    
+p4 CALL 0             PRICE 3     POT 12    
+TURN Td
+p1 CALL 0    BET 6    PRICE 9     POT 18    
+p2 CALL 6             PRICE 9     POT 24    
+p3 CALL 6             PRICE 9     POT 30    
+p4 CALL 6             PRICE 9     POT 36    
+RIVER Ad
+p1 CALL 0             PRICE 9     POT 36    
+p2 CALL 0    BET 18   PRICE 27    POT 54    
+p3 CALL 18   BET 27   PRICE 54    POT 99    
+p4 FOLDS
+p1 CALL 45            PRICE 54    POT 144   
+p2 CALL 27   BET 72   PRICE 126   POT 243   
+p3 CALL 72   BET 121  PRICE 247   POT 436   
+p1 CALL 193           PRICE 247   POT 629   
+p2 FOLDS
+p[3] WINS 629 NET PROFIT [-247, -126, 382, -9]
+
+p1 DEALT 4d4h
+p2 DEALT 2d5s
+p3 DEALT 7s4c
+p4 DEALT 8sQd
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2             PRICE 2     POT 5     
+p4 CALL 2             PRICE 2     POT 7     
+p1 CALL 1             PRICE 2     POT 8     
+FLOP KdAdQh
+p1 CALL 0             PRICE 2     POT 8     
+p2 CALL 0             PRICE 2     POT 8     
+p3 CALL 0             PRICE 2     POT 8     
+p4 CALL 0    BET 4    PRICE 6     POT 12    
+p1 CALL 4             PRICE 6     POT 16    
+p2 FOLDS
+p3 CALL 4             PRICE 6     POT 20    
+TURN 4s
+p1 CALL 0             PRICE 6     POT 20    
+p3 CALL 0             PRICE 6     POT 20    
+p4 CALL 0             PRICE 6     POT 20    
+RIVER 5h
+p1 CALL 0             PRICE 6     POT 20    
+p3 CALL 0             PRICE 6     POT 20    
+p4 CALL 0             PRICE 6     POT 20    
+p[1] WINS 20 NET PROFIT [14, -2, -6, -6]
+
+p1 DEALT As6d
+p2 DEALT 8cQs
+p3 DEALT 6h7h
+p4 DEALT Qh9s
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2             PRICE 2     POT 5     
+p4 FOLDS
+p1 FOLDS
+FLOP 3d4s3h
+p2 CALL 0             PRICE 2     POT 5     
+p3 CALL 0             PRICE 2     POT 5     
+TURN 6c
+p2 CALL 0             PRICE 2     POT 5     
+p3 CALL 0             PRICE 2     POT 5     
+RIVER 2d
+p2 CALL 0             PRICE 2     POT 5     
+p3 CALL 0    BET 2    PRICE 4     POT 7     
+p2 CALL 2             PRICE 4     POT 9     
+p[3] WINS 9 NET PROFIT [-1, -4, 5, 0]
+
+p1 DEALT 9dTc
+p2 DEALT Jd2h
+p3 DEALT 6sAd
+p4 DEALT 6d3d
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2             PRICE 2     POT 5     
+p4 FOLDS
+p1 FOLDS
+FLOP 9c4s5d
+p2 CALL 0             PRICE 2     POT 5     
+p3 CALL 0    BET 2    PRICE 4     POT 7     
+p2 FOLDS
+p[3] WINS 7 NET PROFIT [-1, -2, 3, 0]
+
+p1 DEALT QsAs
+p2 DEALT Qd6d
+p3 DEALT TsJs
+p4 DEALT 5h9s
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2             PRICE 2     POT 5     
+p4 CALL 2    BET 2    PRICE 4     POT 9     
+p1 FOLDS
+p2 FOLDS
+p3 CALL 2             PRICE 4     POT 11    
+FLOP JdKd4c
+p3 CALL 0             PRICE 4     POT 11    
+p4 CALL 0             PRICE 4     POT 11    
+TURN 7c
+p3 CALL 0             PRICE 4     POT 11    
+p4 CALL 0             PRICE 4     POT 11    
+RIVER 6h
+p3 CALL 0             PRICE 4     POT 11    
+p4 CALL 0             PRICE 4     POT 11    
+p[3] WINS 11 NET PROFIT [-1, -2, 7, -4]
+
+p1 DEALT 7hAc
+p2 DEALT QsTc
+p3 DEALT 2sQc
+p4 DEALT 3d4d
+p1 POSTS SB
+p2 POSTS BB
+p3 FOLDS
+p4 CALL 2    BET 1    PRICE 3     POT 6     
+p1 CALL 2    BET 3    PRICE 6     POT 11    
+p2 CALL 4             PRICE 6     POT 15    
+p4 FOLDS
+FLOP Qh8c9h
+p1 CALL 0    BET 7    PRICE 13    POT 22    
+p2 CALL 7    BET 11   PRICE 24    POT 40    
+p1 CALL 11   BET 20   PRICE 44    POT 71    
+p2 CALL 20            PRICE 44    POT 91    
+TURN 4s
+p1 CALL 0             PRICE 44    POT 91    
+p2 CALL 0             PRICE 44    POT 91    
+RIVER 4h
+p1 CALL 0             PRICE 44    POT 91    
+p2 CALL 0             PRICE 44    POT 91    
+p[2] WINS 91 NET PROFIT [-44, 47, 0, -3]
+
+p1 DEALT 5h3s
+p2 DEALT 9s3d
+p3 DEALT 2sKd
+p4 DEALT Ah8s
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2             PRICE 2     POT 5     
+p4 FOLDS
+p1 FOLDS
+FLOP QdJc6c
+p2 CALL 0             PRICE 2     POT 5     
+p3 CALL 0             PRICE 2     POT 5     
+TURN 2d
+p2 CALL 0             PRICE 2     POT 5     
+p3 CALL 0    BET 2    PRICE 4     POT 7     
+p2 CALL 2    BET 3    PRICE 7     POT 12    
+p3 CALL 3             PRICE 7     POT 15    
+RIVER Ac
+p2 CALL 0             PRICE 7     POT 15    
+p3 CALL 0             PRICE 7     POT 15    
+p[3] WINS 15 NET PROFIT [-1, -7, 8, 0]
+
+p1 DEALT 2cQc
+p2 DEALT 2sTs
+p3 DEALT 4cKd
+p4 DEALT 9sJs
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2             PRICE 2     POT 5     
+p4 CALL 2             PRICE 2     POT 7     
+p1 CALL 1             PRICE 2     POT 8     
+FLOP Jd5cKc
+p1 CALL 0             PRICE 2     POT 8     
+p2 CALL 0             PRICE 2     POT 8     
+p3 CALL 0             PRICE 2     POT 8     
+p4 CALL 0             PRICE 2     POT 8     
+TURN 8d
+p1 CALL 0             PRICE 2     POT 8     
+p2 CALL 0             PRICE 2     POT 8     
+p3 CALL 0             PRICE 2     POT 8     
+p4 CALL 0             PRICE 2     POT 8     
+RIVER 5h
+p1 CALL 0             PRICE 2     POT 8     
+p2 CALL 0             PRICE 2     POT 8     
+p3 CALL 0             PRICE 2     POT 8     
+p4 CALL 0             PRICE 2     POT 8     
+p[3] WINS 8 NET PROFIT [-2, -2, 6, -2]
+
+p1 DEALT 3dTd
+p2 DEALT 9s9c
+p3 DEALT 6d7c
+p4 DEALT 4h2c
+p1 POSTS SB
+p2 POSTS BB
+p3 FOLDS
+p4 CALL 2             PRICE 2     POT 5     
+p1 FOLDS
+FLOP 4dTs2d
+p2 CALL 0             PRICE 2     POT 5     
+p4 CALL 0    BET 2    PRICE 4     POT 7     
+p2 CALL 2             PRICE 4     POT 9     
+TURN Qc
+p2 CALL 0             PRICE 4     POT 9     
+p4 CALL 0    BET 4    PRICE 8     POT 13    
+p2 FOLDS
+p[4] WINS 13 NET PROFIT [-1, -4, 0, 5]
+
+p1 DEALT Ac4h
+p2 DEALT 9h2d
+p3 DEALT 3sQh
+p4 DEALT 4s8h
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2    BET 1    PRICE 3     POT 6     
+p4 CALL 3    BET 3    PRICE 6     POT 12    
+p1 CALL 5             PRICE 6     POT 17    
+p2 CALL 4    BET 8    PRICE 14    POT 29    
+p3 FOLDS
+p4 CALL 8             PRICE 14    POT 37    
+p1 FOLDS
+FLOP 2c3dKs
+p2 CALL 0             PRICE 14    POT 37    
+p4 CALL 0             PRICE 14    POT 37    
+TURN 6h
+p2 CALL 0             PRICE 14    POT 37    
+p4 CALL 0             PRICE 14    POT 37    
+RIVER Js
+p2 CALL 0    BET 18   PRICE 32    POT 55    
+p4 CALL 18   BET 27   PRICE 59    POT 100   
+p2 CALL 27            PRICE 59    POT 127   
+p[2] WINS 127 NET PROFIT [-6, 68, -3, -59]
+
+p1 DEALT 2h7h
+p2 DEALT 2dKc
+p3 DEALT 4s4c
+p4 DEALT 7s3c
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2             PRICE 2     POT 5     
+p4 CALL 2             PRICE 2     POT 7     
+p1 CALL 1    BET 3    PRICE 5     POT 11    
+p2 CALL 3             PRICE 5     POT 14    
+p3 CALL 3    BET 7    PRICE 12    POT 24    
+p4 FOLDS
+p1 FOLDS
+p2 CALL 7             PRICE 12    POT 31    
+FLOP Js5sQd
+p2 CALL 0             PRICE 12    POT 31    
+p3 CALL 0             PRICE 12    POT 31    
+TURN 7c
+p2 CALL 0             PRICE 12    POT 31    
+p3 CALL 0             PRICE 12    POT 31    
+RIVER 5h
+p2 CALL 0             PRICE 12    POT 31    
+p3 CALL 0             PRICE 12    POT 31    
+p[3] WINS 31 NET PROFIT [-5, -12, 19, -2]
+
+p1 DEALT 5d8d
+p2 DEALT Jd3h
+p3 DEALT 2s8s
+p4 DEALT KdQc
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2             PRICE 2     POT 5     
+p4 CALL 2    BET 2    PRICE 4     POT 9     
+p1 CALL 3             PRICE 4     POT 12    
+p2 CALL 2             PRICE 4     POT 14    
+p3 FOLDS
+FLOP 3c4hJs
+p1 CALL 0    BET 7    PRICE 11    POT 21    
+p2 CALL 7             PRICE 11    POT 28    
+p4 CALL 7             PRICE 11    POT 35    
+TURN Kh
+p1 CALL 0    BET 17   PRICE 28    POT 52    
+p2 CALL 17            PRICE 28    POT 69    
+p4 CALL 17   BET 34   PRICE 62    POT 120   
+p1 CALL 34            PRICE 62    POT 154   
+p2 CALL 34            PRICE 62    POT 188   
+RIVER 8h
+p1 CALL 0    BET 94   PRICE 156   POT 282   
+p2 FOLDS
+p4 FOLDS
+p[1] WINS 282 NET PROFIT [126, -62, -2, -62]
+
+p1 DEALT Ts5h
+p2 DEALT 5c2s
+p3 DEALT 9d4s
+p4 DEALT 2h2c
+p1 POSTS SB
+p2 POSTS BB
+p3 FOLDS
+p4 CALL 2             PRICE 2     POT 5     
+p1 CALL 1    BET 2    PRICE 4     POT 8     
+p2 CALL 2             PRICE 4     POT 10    
+p4 CALL 2             PRICE 4     POT 12    
+FLOP 3d8cAd
+p1 CALL 0             PRICE 4     POT 12    
+p2 CALL 0             PRICE 4     POT 12    
+p4 CALL 0    BET 6    PRICE 10    POT 18    
+p1 FOLDS
+p2 CALL 6    BET 9    PRICE 19    POT 33    
+p4 CALL 9             PRICE 19    POT 42    
+TURN 8s
+p2 CALL 0             PRICE 19    POT 42    
+p4 CALL 0             PRICE 19    POT 42    
+RIVER 7c
+p2 CALL 0             PRICE 19    POT 42    
+p4 CALL 0    BET 21   PRICE 40    POT 63    
+p2 CALL 21            PRICE 40    POT 84    
+p[4] WINS 84 NET PROFIT [-4, -40, 0, 44]
+
+p1 DEALT 7dAc
+p2 DEALT Td2d
+p3 DEALT Qh6d
+p4 DEALT 9hAs
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2             PRICE 2     POT 5     
+p4 FOLDS
+p1 CALL 1             PRICE 2     POT 6     
+FLOP 8s8dKc
+p1 CALL 0             PRICE 2     POT 6     
+p2 CALL 0    BET 3    PRICE 5     POT 9     
+p3 FOLDS
+p1 CALL 3             PRICE 5     POT 12    
+TURN 5h
+p1 CALL 0    BET 6    PRICE 11    POT 18    
+p2 CALL 6             PRICE 11    POT 24    
+RIVER 5d
+p1 CALL 0    BET 12   PRICE 23    POT 36    
+p2 CALL 12   BET 18   PRICE 41    POT 66    
+p1 FOLDS
+p[2] WINS 66 NET PROFIT [-23, 25, -2, 0]
+
+p1 DEALT 2cQs
+p2 DEALT KsQc
+p3 DEALT Kd6h
+p4 DEALT 3s7c
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2    BET 1    PRICE 3     POT 6     
+p4 CALL 3             PRICE 3     POT 9     
+p1 CALL 2             PRICE 3     POT 11    
+p2 FOLDS
+FLOP 3c4sAh
+p1 CALL 0             PRICE 3     POT 11    
+p3 CALL 0             PRICE 3     POT 11    
+p4 CALL 0             PRICE 3     POT 11    
+TURN Qh
+p1 CALL 0             PRICE 3     POT 11    
+p3 CALL 0             PRICE 3     POT 11    
+p4 CALL 0             PRICE 3     POT 11    
+RIVER 5d
+p1 CALL 0    BET 5    PRICE 8     POT 16    
+p3 CALL 5             PRICE 8     POT 21    
+p4 CALL 5    BET 10   PRICE 18    POT 36    
+p1 CALL 10   BET 18   PRICE 36    POT 64    
+p3 CALL 28   BET 32   PRICE 68    POT 124   
+p4 CALL 50   BET 62   PRICE 130   POT 236   
+p1 CALL 94            PRICE 130   POT 330   
+p3 CALL 62   BET 165  PRICE 295   POT 557   
+p4 FOLDS
+p1 CALL 165  BET 278  PRICE 573   POT 1000  
+p3 CALL 278  BET 500  PRICE 1073  POT 1778  
+p1 FOLDS
+p[3] WINS 1778 NET PROFIT [-573, -2, 705, -130]
+
+p1 DEALT 6cJc
+p2 DEALT 3sAc
+p3 DEALT AdJs
+p4 DEALT 5d4s
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2    BET 1    PRICE 3     POT 6     
+p4 FOLDS
+p1 FOLDS
+p2 FOLDS
+p[3] WINS 6 NET PROFIT [-1, -2, 3, 0]
+
+p1 DEALT 6h3s
+p2 DEALT Qs2h
+p3 DEALT KcJd
+p4 DEALT 9d8c
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2             PRICE 2     POT 5     
+p4 CALL 2    BET 2    PRICE 4     POT 9     
+p1 CALL 3             PRICE 4     POT 12    
+p2 CALL 2             PRICE 4     POT 14    
+p3 CALL 2             PRICE 4     POT 16    
+FLOP 9sAs5s
+p1 CALL 0             PRICE 4     POT 16    
+p2 CALL 0    BET 8    PRICE 12    POT 24    
+p3 CALL 8             PRICE 12    POT 32    
+p4 CALL 8             PRICE 12    POT 40    
+p1 CALL 8    BET 20   PRICE 32    POT 68    
+p2 CALL 20   BET 34   PRICE 66    POT 122   
+p3 CALL 54            PRICE 66    POT 176   
+p4 CALL 54            PRICE 66    POT 230   
+p1 CALL 34   BET 115  PRICE 181   POT 379   
+p2 CALL 115           PRICE 181   POT 494   
+p3 FOLDS
+p4 CALL 115           PRICE 181   POT 609   
+TURN Js
+p1 CALL 0    BET 304  PRICE 485   POT 913   
+p2 CALL 304  BET 456  PRICE 941   POT 1673  
+p4 CALL 760           PRICE 941   POT 2433  
+p1 CALL 456  BET 1216 PRICE 2157  POT 4105  
+p2 CALL 1216          PRICE 2157  POT 5321  
+p4 CALL 1216          PRICE 2157  POT 6537  
+RIVER 8h
+p1 CALL 0             PRICE 2157  POT 6537  
+p2 CALL 0             PRICE 2157  POT 6537  
+p4 CALL 0    BET 3268 PRICE 5425  POT 9805  
+p1 CALL 3268          PRICE 5425  POT 13073 
+p2 CALL 3268 BET 6536 PRICE 11961 POT 22877 
+p4 FOLDS
+p1 CALL 6536          PRICE 11961 POT 29413 
+p[2] WINS 29413 NET PROFIT [-11961, 17452, -66, -5425]
+
+p1 DEALT Jd3s
+p2 DEALT Kc5s
+p3 DEALT Ks2h
+p4 DEALT 2dQd
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2             PRICE 2     POT 5     
+p4 CALL 2             PRICE 2     POT 7     
+p1 FOLDS
+FLOP Qs9d3d
+p2 CALL 0             PRICE 2     POT 7     
+p3 CALL 0             PRICE 2     POT 7     
+p4 CALL 0             PRICE 2     POT 7     
+TURN 9c
+p2 CALL 0             PRICE 2     POT 7     
+p3 CALL 0             PRICE 2     POT 7     
+p4 CALL 0             PRICE 2     POT 7     
+RIVER 7d
+p2 CALL 0             PRICE 2     POT 7     
+p3 CALL 0             PRICE 2     POT 7     
+p4 CALL 0             PRICE 2     POT 7     
+p[4] WINS 7 NET PROFIT [-1, -2, -2, 5]
+
+p1 DEALT Qc7h
+p2 DEALT 6c6s
+p3 DEALT JsJd
+p4 DEALT Tc6h
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2    BET 1    PRICE 3     POT 6     
+p4 FOLDS
+p1 CALL 2    BET 3    PRICE 6     POT 11    
+p2 CALL 4    BET 5    PRICE 11    POT 20    
+p3 CALL 8             PRICE 11    POT 28    
+p1 CALL 5    BET 14   PRICE 25    POT 47    
+p2 CALL 14   BET 23   PRICE 48    POT 84    
+p3 CALL 37            PRICE 48    POT 121   
+p1 FOLDS
+FLOP KhJcTd
+p2 CALL 0    BET 60   PRICE 108   POT 181   
+p3 CALL 60   BET 90   PRICE 198   POT 331   
+p2 CALL 90   BET 165  PRICE 363   POT 586   
+p3 CALL 165           PRICE 363   POT 751   
+TURN 2c
+p2 CALL 0             PRICE 363   POT 751   
+p3 CALL 0             PRICE 363   POT 751   
+RIVER 8h
+p2 CALL 0             PRICE 363   POT 751   
+p3 CALL 0             PRICE 363   POT 751   
+p[3] WINS 751 NET PROFIT [-25, -363, 388, 0]
+
+p1 DEALT 5cKc
+p2 DEALT 2h6d
+p3 DEALT 9c2s
+p4 DEALT Tc6c
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2             PRICE 2     POT 5     
+p4 CALL 2             PRICE 2     POT 7     
+p1 FOLDS
+FLOP Ah8d2d
+p2 CALL 0             PRICE 2     POT 7     
+p3 CALL 0             PRICE 2     POT 7     
+p4 CALL 0             PRICE 2     POT 7     
+TURN Ts
+p2 CALL 0             PRICE 2     POT 7     
+p3 CALL 0             PRICE 2     POT 7     
+p4 CALL 0    BET 3    PRICE 5     POT 10    
+p2 FOLDS
+p3 FOLDS
+p[4] WINS 10 NET PROFIT [-1, -2, -2, 5]
+
+p1 DEALT 9sAh
+p2 DEALT AsJd
+p3 DEALT 3sJc
+p4 DEALT 4s4h
+p1 POSTS SB
+p2 POSTS BB
+p3 FOLDS
+p4 CALL 2             PRICE 2     POT 5     
+p1 CALL 1             PRICE 2     POT 6     
+FLOP 6h8h3d
+p1 CALL 0             PRICE 2     POT 6     
+p2 CALL 0             PRICE 2     POT 6     
+p4 CALL 0    BET 3    PRICE 5     POT 9     
+p1 FOLDS
+p2 FOLDS
+p[4] WINS 9 NET PROFIT [-2, -2, 0, 4]
+
+p1 DEALT 5h6h
+p2 DEALT As7h
+p3 DEALT Tc9h
+p4 DEALT 8d4c
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2    BET 1    PRICE 3     POT 6     
+p4 FOLDS
+p1 CALL 2             PRICE 3     POT 8     
+p2 FOLDS
+FLOP 4s7sAd
+p1 CALL 0             PRICE 3     POT 8     
+p3 CALL 0    BET 4    PRICE 7     POT 12    
+p1 CALL 4    BET 6    PRICE 13    POT 22    
+p3 FOLDS
+p[1] WINS 22 NET PROFIT [9, -2, -7, 0]
+
+p1 DEALT 4s3c
+p2 DEALT Ts3h
+p3 DEALT 6d9s
+p4 DEALT As7d
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2             PRICE 2     POT 5     
+p4 FOLDS
+p1 CALL 1    BET 2    PRICE 4     POT 8     
+p2 FOLDS
+p3 CALL 2    BET 4    PRICE 8     POT 14    
+p1 FOLDS
+p[3] WINS 14 NET PROFIT [-4, -2, 6, 0]
+
+p1 DEALT TdKh
+p2 DEALT 2hKs
+p3 DEALT QdJd
+p4 DEALT Kc4d
+p1 POSTS SB
+p2 POSTS BB
+p3 FOLDS
+p4 FOLDS
+p1 CALL 1             PRICE 2     POT 4     
+FLOP 5dJc5s
+p1 CALL 0             PRICE 2     POT 4     
+p2 CALL 0             PRICE 2     POT 4     
+TURN 9d
+p1 CALL 0             PRICE 2     POT 4     
+p2 CALL 0             PRICE 2     POT 4     
+RIVER 8h
+p1 CALL 0             PRICE 2     POT 4     
+p2 CALL 0    BET 2    PRICE 4     POT 6     
+p1 CALL 2             PRICE 4     POT 8     
+p[1] WINS 8 NET PROFIT [4, -4, 0, 0]
+
+p1 DEALT Kc8c
+p2 DEALT Jd8h
+p3 DEALT 3sQh
+p4 DEALT Kh4h
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2             PRICE 2     POT 5     
+p4 CALL 2    BET 2    PRICE 4     POT 9     
+p1 CALL 3    BET 4    PRICE 8     POT 16    
+p2 CALL 6    BET 8    PRICE 16    POT 30    
+p3 CALL 14            PRICE 16    POT 44    
+p4 FOLDS
+p1 CALL 8             PRICE 16    POT 52    
+FLOP 4s4c2s
+p1 CALL 0    BET 26   PRICE 42    POT 78    
+p2 CALL 26            PRICE 42    POT 104   
+p3 FOLDS
+TURN 7h
+p1 CALL 0    BET 52   PRICE 94    POT 156   
+p2 CALL 52            PRICE 94    POT 208   
+RIVER Qs
+p1 CALL 0    BET 104  PRICE 198   POT 312   
+p2 CALL 104           PRICE 198   POT 416   
+p[1] WINS 416 NET PROFIT [218, -198, -16, -4]
+
+p1 DEALT Tc9d
+p2 DEALT Jd4c
+p3 DEALT 5hKs
+p4 DEALT AdKc
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2             PRICE 2     POT 5     
+p4 CALL 2             PRICE 2     POT 7     
+p1 CALL 1    BET 3    PRICE 5     POT 11    
+p2 CALL 3             PRICE 5     POT 14    
+p3 CALL 3             PRICE 5     POT 17    
+p4 CALL 3    BET 8    PRICE 13    POT 28    
+p1 CALL 8             PRICE 13    POT 36    
+p2 CALL 8             PRICE 13    POT 44    
+p3 CALL 8    BET 22   PRICE 35    POT 74    
+p4 FOLDS
+p1 CALL 22            PRICE 35    POT 96    
+p2 CALL 22            PRICE 35    POT 118   
+FLOP 7h5dKd
+p1 CALL 0             PRICE 35    POT 118   
+p2 CALL 0             PRICE 35    POT 118   
+p3 CALL 0             PRICE 35    POT 118   
+TURN Js
+p1 CALL 0    BET 59   PRICE 94    POT 177   
+p2 FOLDS
+p3 CALL 59            PRICE 94    POT 236   
+RIVER 7c
+p1 CALL 0             PRICE 94    POT 236   
+p3 CALL 0             PRICE 94    POT 236   
+p[3] WINS 236 NET PROFIT [-94, -35, 142, -13]
+
+p1 DEALT 5hTs
+p2 DEALT 4s3d
+p3 DEALT 2s5d
+p4 DEALT 5c7h
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2             PRICE 2     POT 5     
+p4 CALL 2             PRICE 2     POT 7     
+p1 CALL 1    BET 3    PRICE 5     POT 11    
+p2 FOLDS
+p3 CALL 3    BET 5    PRICE 10    POT 19    
+p4 CALL 8             PRICE 10    POT 27    
+p1 CALL 5             PRICE 10    POT 32    
+FLOP 3cTd4h
+p1 CALL 0             PRICE 10    POT 32    
+p3 CALL 0    BET 16   PRICE 26    POT 48    
+p4 FOLDS
+p1 CALL 16            PRICE 26    POT 64    
+TURN 4d
+p1 CALL 0    BET 32   PRICE 58    POT 96    
+p3 FOLDS
+p[1] WINS 96 NET PROFIT [38, -2, -26, -10]
+
+p1 DEALT Js5d
+p2 DEALT Jh9d
+p3 DEALT 9s4c
+p4 DEALT 6cJc
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2    BET 1    PRICE 3     POT 6     
+p4 CALL 3             PRICE 3     POT 9     
+p1 CALL 2             PRICE 3     POT 11    
+p2 CALL 1             PRICE 3     POT 12    
+FLOP Qd2h8c
+p1 CALL 0             PRICE 3     POT 12    
+p2 CALL 0             PRICE 3     POT 12    
+p3 CALL 0             PRICE 3     POT 12    
+p4 CALL 0             PRICE 3     POT 12    
+TURN Ad
+p1 CALL 0             PRICE 3     POT 12    
+p2 CALL 0             PRICE 3     POT 12    
+p3 CALL 0             PRICE 3     POT 12    
+p4 CALL 0             PRICE 3     POT 12    
+RIVER 6s
+p1 CALL 0             PRICE 3     POT 12    
+p2 CALL 0    BET 6    PRICE 9     POT 18    
+p3 CALL 6             PRICE 9     POT 24    
+p4 CALL 6             PRICE 9     POT 30    
+p1 CALL 6    BET 15   PRICE 24    POT 51    
+p2 FOLDS
+p3 CALL 15   BET 25   PRICE 49    POT 91    
+p4 CALL 40            PRICE 49    POT 131   
+p1 CALL 25            PRICE 49    POT 156   
+p[4] WINS 156 NET PROFIT [-49, -9, -49, 107]
+
+p1 DEALT 7h9d
+p2 DEALT 3dKc
+p3 DEALT 3s2c
+p4 DEALT TdQh
+p1 POSTS SB
+p2 POSTS BB
+p3 FOLDS
+p4 FOLDS
+p1 FOLDS
+p[2] WINS 3 NET PROFIT [-1, 1, 0, 0]
+
+p1 DEALT 8d8s
+p2 DEALT Ad2d
+p3 DEALT 7d7c
+p4 DEALT 9sQh
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2    BET 1    PRICE 3     POT 6     
+p4 CALL 3    BET 3    PRICE 6     POT 12    
+p1 CALL 5    BET 6    PRICE 12    POT 23    
+p2 CALL 10            PRICE 12    POT 33    
+p3 CALL 9             PRICE 12    POT 42    
+p4 CALL 6             PRICE 12    POT 48    
+FLOP 9c6h5c
+p1 CALL 0             PRICE 12    POT 48    
+p2 CALL 0             PRICE 12    POT 48    
+p3 CALL 0             PRICE 12    POT 48    
+p4 CALL 0             PRICE 12    POT 48    
+TURN 4c
+p1 CALL 0             PRICE 12    POT 48    
+p2 CALL 0    BET 24   PRICE 36    POT 72    
+p3 CALL 24   BET 36   PRICE 72    POT 132   
+p4 FOLDS
+p1 CALL 60   BET 66   PRICE 138   POT 258   
+p2 FOLDS
+p3 CALL 66   BET 129  PRICE 267   POT 453   
+p1 CALL 129           PRICE 267   POT 582   
+RIVER 6s
+p1 CALL 0             PRICE 267   POT 582   
+p3 CALL 0             PRICE 267   POT 582   
+p[1] WINS 582 NET PROFIT [315, -36, -267, -12]
+
+p1 DEALT TdJd
+p2 DEALT Ts4s
+p3 DEALT 9s6h
+p4 DEALT QcJc
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2             PRICE 2     POT 5     
+p4 CALL 2             PRICE 2     POT 7     
+p1 CALL 1    BET 3    PRICE 5     POT 11    
+p2 FOLDS
+p3 CALL 3    BET 5    PRICE 10    POT 19    
+p4 CALL 8    BET 9    PRICE 19    POT 36    
+p1 CALL 14   BET 18   PRICE 37    POT 68    
+p3 FOLDS
+p4 FOLDS
+p[1] WINS 68 NET PROFIT [31, -2, -10, -19]
+
+p1 DEALT 5d6d
+p2 DEALT 8h6c
+p3 DEALT 2d4d
+p4 DEALT Tc4h
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2             PRICE 2     POT 5     
+p4 CALL 2             PRICE 2     POT 7     
+p1 FOLDS
+FLOP 7c6h5h
+p2 CALL 0    BET 3    PRICE 5     POT 10    
+p3 CALL 3             PRICE 5     POT 13    
+p4 CALL 3             PRICE 5     POT 16    
+TURN Qc
+p2 CALL 0             PRICE 5     POT 16    
+p3 CALL 0    BET 8    PRICE 13    POT 24    
+p4 CALL 8             PRICE 13    POT 32    
+p2 FOLDS
+RIVER 7h
+p3 CALL 0             PRICE 13    POT 32    
+p4 CALL 0             PRICE 13    POT 32    
+p[4] WINS 32 NET PROFIT [-1, -5, -13, 19]
+
+p1 DEALT 2h4s
+p2 DEALT Th7s
+p3 DEALT 5s5d
+p4 DEALT AcAs
+p1 POSTS SB
+p2 POSTS BB
+p3 FOLDS
+p4 CALL 2             PRICE 2     POT 5     
+p1 FOLDS
+FLOP 7h2sTc
+p2 CALL 0             PRICE 2     POT 5     
+p4 CALL 0    BET 2    PRICE 4     POT 7     
+p2 CALL 2    BET 3    PRICE 7     POT 12    
+p4 CALL 3             PRICE 7     POT 15    
+TURN 4d
+p2 CALL 0             PRICE 7     POT 15    
+p4 CALL 0    BET 7    PRICE 14    POT 22    
+p2 CALL 7             PRICE 14    POT 29    
+RIVER 5h
+p2 CALL 0             PRICE 14    POT 29    
+p4 CALL 0             PRICE 14    POT 29    
+p[2] WINS 29 NET PROFIT [-1, 15, 0, -14]
+
+p1 DEALT 8hJh
+p2 DEALT Ts2s
+p3 DEALT Qc2c
+p4 DEALT 5h6c
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2             PRICE 2     POT 5     
+p4 FOLDS
+p1 CALL 1             PRICE 2     POT 6     
+FLOP 4dAcTh
+p1 CALL 0             PRICE 2     POT 6     
+p2 CALL 0    BET 3    PRICE 5     POT 9     
+p3 FOLDS
+p1 CALL 3             PRICE 5     POT 12    
+TURN Jd
+p1 CALL 0    BET 6    PRICE 11    POT 18    
+p2 CALL 6             PRICE 11    POT 24    
+RIVER 6h
+p1 CALL 0             PRICE 11    POT 24    
+p2 CALL 0             PRICE 11    POT 24    
+p[1] WINS 24 NET PROFIT [13, -11, -2, 0]
+
+p1 DEALT 9h6d
+p2 DEALT 9dAs
+p3 DEALT 4hJh
+p4 DEALT 3dQc
+p1 POSTS SB
+p2 POSTS BB
+p3 FOLDS
+p4 CALL 2             PRICE 2     POT 5     
+p1 CALL 1             PRICE 2     POT 6     
+FLOP 3hKd7h
+p1 CALL 0             PRICE 2     POT 6     
+p2 CALL 0    BET 3    PRICE 5     POT 9     
+p4 CALL 3             PRICE 5     POT 12    
+p1 CALL 3    BET 6    PRICE 11    POT 21    
+p2 CALL 6    BET 10   PRICE 21    POT 37    
+p4 CALL 16   BET 18   PRICE 39    POT 71    
+p1 CALL 28            PRICE 39    POT 99    
+p2 FOLDS
+TURN Qh
+p1 CALL 0             PRICE 39    POT 99    
+p4 CALL 0             PRICE 39    POT 99    
+RIVER 4c
+p1 CALL 0    BET 49   PRICE 88    POT 148   
+p4 CALL 49            PRICE 88    POT 197   
+p[4] WINS 197 NET PROFIT [-88, -21, 0, 109]
+
+p1 DEALT Kc4s
+p2 DEALT 6h4d
+p3 DEALT 2s3d
+p4 DEALT 7c9c
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2    BET 1    PRICE 3     POT 6     
+p4 CALL 3             PRICE 3     POT 9     
+p1 CALL 2             PRICE 3     POT 11    
+p2 CALL 1    BET 5    PRICE 8     POT 17    
+p3 CALL 5             PRICE 8     POT 22    
+p4 FOLDS
+p1 CALL 5             PRICE 8     POT 27    
+FLOP QdJs2d
+p1 CALL 0             PRICE 8     POT 27    
+p2 CALL 0             PRICE 8     POT 27    
+p3 CALL 0    BET 13   PRICE 21    POT 40    
+p1 CALL 13            PRICE 21    POT 53    
+p2 CALL 13            PRICE 21    POT 66    
+TURN 7d
+p1 CALL 0    BET 33   PRICE 54    POT 99    
+p2 CALL 33            PRICE 54    POT 132   
+p3 FOLDS
+RIVER 2c
+p1 CALL 0             PRICE 54    POT 132   
+p2 CALL 0             PRICE 54    POT 132   
+p[1] WINS 132 NET PROFIT [78, -54, -21, -3]
+
+p1 DEALT Js3h
+p2 DEALT 4s5s
+p3 DEALT QcAs
+p4 DEALT TdKd
+p1 POSTS SB
+p2 POSTS BB
+p3 FOLDS
+p4 CALL 2    BET 1    PRICE 3     POT 6     
+p1 CALL 2    BET 3    PRICE 6     POT 11    
+p2 CALL 4             PRICE 6     POT 15    
+p4 CALL 3             PRICE 6     POT 18    
+FLOP 2h2s3d
+p1 CALL 0             PRICE 6     POT 18    
+p2 CALL 0             PRICE 6     POT 18    
+p4 CALL 0             PRICE 6     POT 18    
+TURN 6h
+p1 CALL 0             PRICE 6     POT 18    
+p2 CALL 0             PRICE 6     POT 18    
+p4 CALL 0    BET 9    PRICE 15    POT 27    
+p1 CALL 9    BET 13   PRICE 28    POT 49    
+p2 CALL 22            PRICE 28    POT 71    
+p4 CALL 13   BET 35   PRICE 63    POT 119   
+p1 CALL 35            PRICE 63    POT 154   
+p2 CALL 35            PRICE 63    POT 189   
+RIVER Th
+p1 CALL 0             PRICE 63    POT 189   
+p2 CALL 0    BET 94   PRICE 157   POT 283   
+p4 FOLDS
+p1 FOLDS
+p[2] WINS 283 NET PROFIT [-63, 126, 0, -63]
+
+p1 DEALT 7cJs
+p2 DEALT Qd4h
+p3 DEALT 9cAs
+p4 DEALT KcAh
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2             PRICE 2     POT 5     
+p4 CALL 2             PRICE 2     POT 7     
+p1 CALL 1             PRICE 2     POT 8     
+FLOP Ks9h5s
+p1 CALL 0             PRICE 2     POT 8     
+p2 CALL 0             PRICE 2     POT 8     
+p3 CALL 0    BET 4    PRICE 6     POT 12    
+p4 CALL 4             PRICE 6     POT 16    
+p1 FOLDS
+p2 CALL 4    BET 8    PRICE 14    POT 28    
+p3 CALL 8             PRICE 14    POT 36    
+p4 CALL 8             PRICE 14    POT 44    
+TURN 9d
+p2 CALL 0             PRICE 14    POT 44    
+p3 CALL 0             PRICE 14    POT 44    
+p4 CALL 0    BET 22   PRICE 36    POT 66    
+p2 FOLDS
+p3 CALL 22            PRICE 36    POT 88    
+RIVER Qs
+p3 CALL 0             PRICE 36    POT 88    
+p4 CALL 0    BET 44   PRICE 80    POT 132   
+p3 CALL 44   BET 66   PRICE 146   POT 242   
+p4 CALL 66            PRICE 146   POT 308   
+p[3] WINS 308 NET PROFIT [-2, -14, 162, -146]
+
+p1 DEALT 7dKd
+p2 DEALT Qs7s
+p3 DEALT Tc5d
+p4 DEALT Qc2c
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2             PRICE 2     POT 5     
+p4 CALL 2             PRICE 2     POT 7     
+p1 CALL 1    BET 3    PRICE 5     POT 11    
+p2 CALL 3             PRICE 5     POT 14    
+p3 FOLDS
+p4 CALL 3    BET 7    PRICE 12    POT 24    
+p1 CALL 7    BET 12   PRICE 24    POT 43    
+p2 CALL 19            PRICE 24    POT 62    
+p4 CALL 12   BET 31   PRICE 55    POT 105   
+p1 FOLDS
+p2 CALL 31            PRICE 55    POT 136   
+FLOP 6h8d2d
+p2 CALL 0             PRICE 55    POT 136   
+p4 CALL 0             PRICE 55    POT 136   
+TURN Jh
+p2 CALL 0             PRICE 55    POT 136   
+p4 CALL 0    BET 68   PRICE 123   POT 204   
+p2 CALL 68   BET 102  PRICE 225   POT 374   
+p4 FOLDS
+p[2] WINS 374 NET PROFIT [-24, 149, -2, -123]
+
+p1 DEALT Kh5d
+p2 DEALT Ts3h
+p3 DEALT 6d9c
+p4 DEALT 5hTh
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2    BET 1    PRICE 3     POT 6     
+p4 CALL 3    BET 3    PRICE 6     POT 12    
+p1 CALL 5             PRICE 6     POT 17    
+p2 FOLDS
+p3 CALL 3             PRICE 6     POT 20    
+FLOP 7h4s9d
+p1 CALL 0    BET 10   PRICE 16    POT 30    
+p3 CALL 10            PRICE 16    POT 40    
+p4 CALL 10            PRICE 16    POT 50    
+TURN Js
+p1 CALL 0             PRICE 16    POT 50    
+p3 CALL 0    BET 25   PRICE 41    POT 75    
+p4 CALL 25            PRICE 41    POT 100   
+p1 CALL 25   BET 50   PRICE 91    POT 175   
+p3 CALL 50            PRICE 91    POT 225   
+p4 CALL 50   BET 112  PRICE 203   POT 387   
+p1 CALL 112           PRICE 203   POT 499   
+p3 CALL 112  BET 249  PRICE 452   POT 860   
+p4 CALL 249           PRICE 452   POT 1109  
+p1 CALL 249           PRICE 452   POT 1358  
+RIVER Ks
+p1 CALL 0             PRICE 452   POT 1358  
+p3 CALL 0             PRICE 452   POT 1358  
+p4 CALL 0             PRICE 452   POT 1358  
+p[1] WINS 1358 NET PROFIT [906, -2, -452, -452]
+
+p1 DEALT AcQd
+p2 DEALT 7h7c
+p3 DEALT AsJc
+p4 DEALT 6s9h
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2             PRICE 2     POT 5     
+p4 CALL 2             PRICE 2     POT 7     
+p1 CALL 1             PRICE 2     POT 8     
+FLOP Kc8dAd
+p1 CALL 0    BET 4    PRICE 6     POT 12    
+p2 FOLDS
+p3 CALL 4             PRICE 6     POT 16    
+p4 CALL 4             PRICE 6     POT 20    
+TURN 3h
+p1 CALL 0             PRICE 6     POT 20    
+p3 CALL 0             PRICE 6     POT 20    
+p4 CALL 0             PRICE 6     POT 20    
+RIVER 3d
+p1 CALL 0             PRICE 6     POT 20    
+p3 CALL 0    BET 10   PRICE 16    POT 30    
+p4 CALL 10   BET 15   PRICE 31    POT 55    
+p1 CALL 25            PRICE 31    POT 80    
+p3 FOLDS
+p[1] WINS 80 NET PROFIT [49, -2, -16, -31]
+
+p1 DEALT 4c9c
+p2 DEALT Ah4s
+p3 DEALT Js9s
+p4 DEALT 4h8s
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2             PRICE 2     POT 5     
+p4 CALL 2    BET 2    PRICE 4     POT 9     
+p1 CALL 3    BET 4    PRICE 8     POT 16    
+p2 CALL 6    BET 8    PRICE 16    POT 30    
+p3 FOLDS
+p4 CALL 12            PRICE 16    POT 42    
+p1 CALL 8    BET 21   PRICE 37    POT 71    
+p2 FOLDS
+p4 FOLDS
+p[1] WINS 71 NET PROFIT [34, -16, -2, -16]
+
+p1 DEALT Jh7s
+p2 DEALT Ks6d
+p3 DEALT 8s2c
+p4 DEALT 2s4d
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2    BET 1    PRICE 3     POT 6     
+p4 FOLDS
+p1 CALL 2             PRICE 3     POT 8     
+p2 CALL 1    BET 4    PRICE 7     POT 13    
+p3 CALL 4             PRICE 7     POT 17    
+p1 CALL 4    BET 8    PRICE 15    POT 29    
+p2 CALL 8             PRICE 15    POT 37    
+p3 CALL 8             PRICE 15    POT 45    
+FLOP QhQd6s
+p1 CALL 0             PRICE 15    POT 45    
+p2 CALL 0             PRICE 15    POT 45    
+p3 CALL 0             PRICE 15    POT 45    
+TURN Kd
+p1 CALL 0    BET 22   PRICE 37    POT 67    
+p2 FOLDS
+p3 CALL 22            PRICE 37    POT 89    
+RIVER 5s
+p1 CALL 0             PRICE 37    POT 89    
+p3 CALL 0             PRICE 37    POT 89    
+p[1] WINS 89 NET PROFIT [52, -15, -37, 0]
+
+p1 DEALT 4d7c
+p2 DEALT 4c2c
+p3 DEALT 9hJc
+p4 DEALT Kc8d
+p1 POSTS SB
+p2 POSTS BB
+p3 FOLDS
+p4 CALL 2             PRICE 2     POT 5     
+p1 FOLDS
+FLOP 2h8c8s
+p2 CALL 0             PRICE 2     POT 5     
+p4 CALL 0    BET 2    PRICE 4     POT 7     
+p2 CALL 2             PRICE 4     POT 9     
+TURN 6d
+p2 CALL 0    BET 4    PRICE 8     POT 13    
+p4 CALL 4             PRICE 8     POT 17    
+RIVER 7d
+p2 CALL 0             PRICE 8     POT 17    
+p4 CALL 0             PRICE 8     POT 17    
+p[4] WINS 17 NET PROFIT [-1, -8, 0, 9]
+
+p1 DEALT Kh7s
+p2 DEALT Js2c
+p3 DEALT 3c9c
+p4 DEALT Ad2h
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2    BET 1    PRICE 3     POT 6     
+p4 CALL 3    BET 3    PRICE 6     POT 12    
+p1 CALL 5             PRICE 6     POT 17    
+p2 FOLDS
+p3 CALL 3             PRICE 6     POT 20    
+FLOP Kd7h9h
+p1 CALL 0             PRICE 6     POT 20    
+p3 CALL 0             PRICE 6     POT 20    
+p4 CALL 0    BET 10   PRICE 16    POT 30    
+p1 CALL 10            PRICE 16    POT 40    
+p3 CALL 10            PRICE 16    POT 50    
+TURN Jc
+p1 CALL 0             PRICE 16    POT 50    
+p3 CALL 0    BET 25   PRICE 41    POT 75    
+p4 CALL 25   BET 37   PRICE 78    POT 137   
+p1 CALL 62            PRICE 78    POT 199   
+p3 CALL 37            PRICE 78    POT 236   
+RIVER 5c
+p1 CALL 0             PRICE 78    POT 236   
+p3 CALL 0             PRICE 78    POT 236   
+p4 CALL 0             PRICE 78    POT 236   
+p[1] WINS 236 NET PROFIT [158, -2, -78, -78]
+
+p1 DEALT QcJs
+p2 DEALT Tc5c
+p3 DEALT 6d6s
+p4 DEALT 4dAh
+p1 POSTS SB
+p2 POSTS BB
+p3 FOLDS
+p4 CALL 2             PRICE 2     POT 5     
+p1 FOLDS
+FLOP Kd2hQd
+p2 CALL 0             PRICE 2     POT 5     
+p4 CALL 0             PRICE 2     POT 5     
+TURN 7h
+p2 CALL 0             PRICE 2     POT 5     
+p4 CALL 0             PRICE 2     POT 5     
+RIVER Qs
+p2 CALL 0    BET 2    PRICE 4     POT 7     
+p4 FOLDS
+p[2] WINS 7 NET PROFIT [-1, 3, 0, -2]
+
+p1 DEALT Jd4s
+p2 DEALT QsQd
+p3 DEALT 5cQh
+p4 DEALT Td3d
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2             PRICE 2     POT 5     
+p4 CALL 2    BET 2    PRICE 4     POT 9     
+p1 CALL 3             PRICE 4     POT 12    
+p2 CALL 2    BET 6    PRICE 10    POT 20    
+p3 CALL 8             PRICE 10    POT 28    
+p4 CALL 6             PRICE 10    POT 34    
+p1 CALL 6             PRICE 10    POT 40    
+FLOP Ac4c8c
+p1 CALL 0    BET 20   PRICE 30    POT 60    
+p2 FOLDS
+p3 CALL 20            PRICE 30    POT 80    
+p4 CALL 20            PRICE 30    POT 100   
+TURN Jc
+p1 CALL 0             PRICE 30    POT 100   
+p3 CALL 0    BET 50   PRICE 80    POT 150   
+p4 CALL 50            PRICE 80    POT 200   
+p1 FOLDS
+RIVER 8s
+p3 CALL 0    BET 100  PRICE 180   POT 300   
+p4 CALL 100           PRICE 180   POT 400   
+p[3] WINS 400 NET PROFIT [-30, -10, 220, -180]
+
+p1 DEALT Qc4c
+p2 DEALT Tc4s
+p3 DEALT 6sAc
+p4 DEALT QhTs
+p1 POSTS SB
+p2 POSTS BB
+p3 FOLDS
+p4 CALL 2    BET 1    PRICE 3     POT 6     
+p1 CALL 2    BET 3    PRICE 6     POT 11    
+p2 CALL 4    BET 5    PRICE 11    POT 20    
+p4 CALL 8    BET 10   PRICE 21    POT 38    
+p1 CALL 15   BET 19   PRICE 40    POT 72    
+p2 CALL 29   BET 36   PRICE 76    POT 137   
+p4 FOLDS
+p1 FOLDS
+p[2] WINS 137 NET PROFIT [-40, 61, 0, -21]
+
+p1 DEALT Ts2d
+p2 DEALT 3dAh
+p3 DEALT 6c5c
+p4 DEALT 4c8s
+p1 POSTS SB
+p2 POSTS BB
+p3 CALL 2             PRICE 2     POT 5     
+p4 CALL 2    BET 2    PRICE 4     POT 9     
+p1 CALL 3             PRICE 4     POT 12    
+p2 CALL 2             PRICE 4     POT 14    
+p3 CALL 2             PRICE 4     POT 16    
+FLOP 7h2s8d
+p1 CALL 0             PRICE 4     POT 16    
+p2 CALL 0             PRICE 4     POT 16    
+p3 CALL 0             PRICE 4     POT 16    
+p4 CALL 0             PRICE 4     POT 16    
+TURN Jd
+p1 CALL 0             PRICE 4     POT 16    
+p2 CALL 0             PRICE 4     POT 16    
+p3 CALL 0    BET 8    PRICE 12    POT 24    
+p4 CALL 8             PRICE 12    POT 32    
+p1 CALL 8    BET 16   PRICE 28    POT 56    
+p2 CALL 24            PRICE 28    POT 80    
+p3 CALL 16            PRICE 28    POT 96    
+p4 CALL 16   BET 48   PRICE 76    POT 160   
+p1 FOLDS
+p2 FOLDS
+p3 CALL 48            PRICE 76    POT 208   
+RIVER Kd
+p3 CALL 0    BET 104  PRICE 180   POT 312   
+p4 CALL 104           PRICE 180   POT 416   
+p[4] WINS 416 NET PROFIT [-28, -28, -180, 236]
+
