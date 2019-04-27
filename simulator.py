@@ -97,7 +97,6 @@ class GameState:
 				self.leading_player = 1
 			return
 		if action.enum == 'open':
-			self.street += 1
 			self.open_cards += list(action.cards)
 			for cd in action.cards:
 				self.all_cards.add(cd)
@@ -245,5 +244,27 @@ class SequentialActionGame:
 		self.players = players
 
 	def reset_game_state():
-		self.
+		self.game_state = GameState(self.game_rules)
 
+	def next_action():
+		if game_state.is_terminal():
+			return None
+		acting_player = players[game_state.acting_player]
+		action = acting_player.take_action(game_state)
+		game_state.apply_action(action)
+		return action
+
+rules = GameRules()
+
+simulator = Simulator(rules)
+
+players = [Dealer(), RandomPlayer(), RandomPlayer(), RandomPlayer(), RandomPlayer()]
+
+simulator.register_players(players)
+
+simulator.reset_game_state()
+
+for i in range(50):
+	if simulator.game_state.is_terminal():
+		'THE END'
+		break

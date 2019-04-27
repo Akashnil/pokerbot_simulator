@@ -12,7 +12,7 @@ def hand_value(cards):
 	num_cards = len(cards) # should be 7, but not assumed so, could be less or more
 	def find_straight(cds):
 		r = 1
-		for i in range(1, num_cards):
+		for i in range(1, len(cds)):
 			if cds[i] == cds[i-1]+1 and cds[i] % 13 != 0:
 				r += 1
 				if r == 4 and cds[i] % 13 == 12 and cds[i] - 12 in cds:
@@ -60,7 +60,7 @@ def hand_value(cards):
 			# found the flush
 			return 3, tuple([x % 13 for x in cards[i:i+5]])
 
-	straight = find_straight(ranks)
+	straight = find_straight(list(set(ranks)))
 	if straight:
 		return 4, tuple([straight+i for i in range(5)])
 
@@ -86,7 +86,7 @@ def card_string(num):
 
 
 #Testing code below
-'''
+
 import numpy
 
 num_trials = 500
@@ -103,4 +103,4 @@ for trials in range(num_trials):
 	readable_cards = ' '.join([card_string(cd) for cd in cards])
 	readable_cards = "{:<25}".format(readable_cards)
 	print(readable_cards, value[0], value[1])
-'''
+
