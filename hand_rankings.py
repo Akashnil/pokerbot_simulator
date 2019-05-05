@@ -24,7 +24,7 @@ def hand_value(cards):
 		return None
 
 	sflush = find_straight(cards)
-	if sflush:
+	if sflush != None:
 		return 0, tuple([sflush])
 
 	ranks = [cd % 13 for cd in cards]
@@ -61,7 +61,7 @@ def hand_value(cards):
 			return 3, tuple([x % 13 for x in cards[i:i+5]])
 
 	straight = find_straight(sorted(list(set(ranks))))
-	if straight:
+	if straight != None:
 		return 4, tuple([straight])
 
 	if best_group[0] == -3:
@@ -84,6 +84,7 @@ def card_string(num):
 	rank = num % 13
 	return rank_letter[rank] + suit_letter[suit]
 
+hand_value([0, 14, 28, 42, 4])
 
 #Testing code below
 '''
