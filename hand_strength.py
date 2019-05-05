@@ -164,7 +164,6 @@ for trials in range(num_trials):
 	board = cards[:-2]
 	hole = cards[-2:]
 	situation = canonical_situation((board, hole))
-	board, hole = situation
 	rel_val = pct[situation]
 	f_val = '{:.3f}'.format(rel_val[0] / rel_val[1])[1:]
 	readable_hole = ' '.join([card_string(cd) for cd in hole])
