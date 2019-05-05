@@ -211,7 +211,7 @@ class Player:
 
 import random
 
-random.seed = 5
+random.seed = 13
 
 class Dealer(Player):
 
