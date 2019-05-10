@@ -95,7 +95,7 @@ def pct_calc(board):
 			total_blocks += 2
 		situation = canonical_situation((board, hole))
 		rel_val = (rank - better_blocks, total_combos - total_blocks)
-		pct[hash(situation)] = rel_val
+		pct[situation] = rel_val
 		# hole_String = ' '.join([card_string(x) for x in situation[1]])
 		# print (hole_String, rel_val)
 		count += 1
@@ -152,8 +152,13 @@ except FileNotFoundError:
 	with open('situation_dict.pickle', 'wb') as handle:
 	    pickle.dump(pct, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
+def hand_strength(situation):
+	situation = canonical_situation(situation)
+	return pct[situation]
+
+'''
 import numpy
-num_trials = 5000
+num_trials = 500
 
 # Canonical situation test
 for trials in range(num_trials):
@@ -163,11 +168,11 @@ for trials in range(num_trials):
 	cards = numpy.random.choice(52, size=num_cards, replace=False)
 	board = cards[:-2]
 	hole = cards[-2:]
-	situation = canonical_situation((board, hole))
-	rel_val = pct[hash(situation)]
+	rel_val = hand_strength((board, hole))
 	f_val = '{:.3f}'.format(rel_val[0] / rel_val[1])[1:]
 	readable_hole = ' '.join([card_string(cd) for cd in hole])
 	readable_hole = "{:<8}".format(readable_hole)
 	readable_board = ' '.join([card_string(cd) for cd in board])
 	readable_board = "{:<20}".format(readable_board)
 	print(readable_hole, readable_board, f_val, rel_val)
+'''
