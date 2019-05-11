@@ -2,16 +2,16 @@ from hand_strength import *
 
 pots = {}
 
-def num_rollouts(situation):
+def num_rollouts(N):
 	ret = 1
-	for i in range(5 - len(situation[0])):
+	for i in range(7 - N):
 		ret *= (46+i)
 	return ret
 
 def canonical(situation):
-	board, hole = situation
-	if len(board) == 5:
+	if len(situation) == 7:
 		return canonical_situation(situation)
+	hole, board = situation[:2], situation[2:]
 	board = sorted([(x % 13, x // 13) for x in board])
 	hole = sorted([(x % 13, x // 13) for x in hole])
 
@@ -48,34 +48,30 @@ def canonical(situation):
 			known_cards.add((x, y))
 	hole = sorted(hole_)
 
-	return tuple([x[0] + x[1] * 13 for x in board]), tuple([x[0] + x[1] * 13 for x in hole])
-
-num_curves = 0
-curves_idx_dict = {}
-idx_curves_dict = {}
+	return [x[0] + x[1] * 13 for x in hole + board]
 
 # returns a list of (rank, count) which means this situation achieves the given rank or better 
 # count times out of all the total_rollouts
 def potential(situation):
 	global num_curves
 	global pots
-	global curves_idx_dict
-	global idx_curves_dict
-	if len(situation[0]) == 5:
-		return ((hand_strength(situation)[0], 1),)
+	if len(situation) == 7:
+		return [(hand_strength(situation), 1)]
 	situation = canonical(situation)
-	board, hole = situation
-	if situation in pots:
-		return idx_curves_dict[pots[situation]]
+	enc = encode(situation + [0], 52, 1000)
+	if enc in pots:
+		ret = []
+		for i in range(pots[enc]):
+			ec = encode(situation + [i+1], 52, 1000)
+			count, rank = decode(pots[ec], 1<<40, 1000)
+			ret.append((rank, count))
+		return ret
+	hole, board = situation[:2], situation[2:]
 	all_points = []
 	for cd in range(52):
-		if cd in board:
+		if cd in situation:
 			continue
-		if cd in hole:
-			continue
-		board_ = list(board)
-		board_.append(cd)
-		cum_list = potential((board_, hole))
+		cum_list = potential(situation + [cd])
 		all_points.append(cum_list[0])
 		all_points += [(cum_list[i][0], cum_list[i][1] - cum_list[i-1][1]) for i in range(1, len(cum_list))]
 	all_points = sorted(all_points)
@@ -88,63 +84,51 @@ def potential(situation):
 			current_rank = rank
 		current_count += count
 	ret.append((current_rank, current_count))
-	if current_count != num_rollouts(situation):
+	if current_count != num_rollouts(len(situation)):
 		print (ret)
-		print (situation, current_count, num_rollouts(situation))
-		assert current_count == num_rollouts(situation)
-	ret = tuple(ret)
-	if ret in curves_idx_dict:
-		pots[situation] = curves_idx_dict[ret]
-	else:
-		curves_idx_dict[ret] = num_curves
-		idx_curves_dict[num_curves] = ret
-		pots[situation] = num_curves
-		num_curves += 1
+		print (situation, current_count, num_rollouts(len(situation)))
+		assert current_count == num_rollouts(len(situation))
+	pots[enc] = len(ret)
+	for i in range(len(ret)):
+		ec = encode(situation + [i+1], 52, 1000)
+
+		pots[ec] = encode([ret[i][1], ret[i][0]], 1<<40, 1000)
 	return ret
 
 import pickle
 import random
 
-try:
-    with open('potential_dict.pickle', 'rb') as handle:
-    	pots = pickle.load(handle)
-    #with open('curves_idx_dict.pickle', 'rb') as handle:
-    #	curves_idx_dict = pickle.load(handle)
-    with open('idx_curves_dict.pickle', 'rb') as handle:
-    	idx_curves_dict = pickle.load(handle)
-except FileNotFoundError:
-	for c0 in range(52):
-		for c1 in range(c0+1, 52):
-			situ = ((), (c0, c1))
-			pt = potential(situ)
-			pt = random.choice(pt)
-			f_val = '{:.3f}'.format(pt[1] / num_rollouts(situ))[1:]
-			print ((c0, c1), f_val, pt)
-	with open('potential_dict.pickle', 'wb') as handle:
-	    pickle.dump(pots, handle, protocol=pickle.HIGHEST_PROTOCOL)
-	#with open('curves_idx_dict.pickle', 'wb') as handle:
-	#    pickle.dump(curves_idx_dict, handle, protocol=pickle.HIGHEST_PROTOCOL)
-	with open('idx_curves_dict.pickle', 'wb') as handle:
-	    pickle.dump(idx_curves_dict, handle, protocol=pickle.HIGHEST_PROTOCOL)
+def load_potential():
+	try:
+	    with open('potential_dict.pickle', 'rb') as handle:
+	    	pots = pickle.load(handle)
+	except FileNotFoundError:
+		load_pct()
+		for c0 in range(52):
+			for c1 in range(c0+1, 52):
+				pt = potential([c0, c1])
+				pt = random.choice(pt)
+				f_val = '{:.3f}'.format(pt[1] / num_rollouts(2))[1:]
+				print ((c0, c1), f_val, pt)
+		with open('potential_dict.pickle', 'wb') as handle:
+		    pickle.dump(pots, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
+'''
 import numpy
-num_trials = 500
-
+num_trials = 100
 # Canonical situation test
 for trials in range(num_trials):
 	num_cards = numpy.random.randint(2, 8)
 	if num_cards == 3 or num_cards == 4:
 		num_cards = 5
 	cards = numpy.random.choice(52, size=num_cards, replace=False)
-	board = cards[:-2]
-	hole = cards[-2:]
-	situation = canonical((board, hole))
-	board, hole = situation
-	pt = potential(situation)
+	hole, board = cards[:2], cards[2:]
+	pt = potential(cards)
 	pt = random.choice(pt)
-	f_val = '{:.3f}'.format(pt[1] / num_rollouts(situation))[1:]
+	f_val = '{:.3f}'.format(pt[1] / num_rollouts(num_cards))[1:]
 	readable_hole = ' '.join([card_string(cd) for cd in hole])
 	readable_hole = "{:<8}".format(readable_hole)
 	readable_board = ' '.join([card_string(cd) for cd in board])
 	readable_board = "{:<20}".format(readable_board)
 	print(readable_hole, readable_board, f_val, pt)
+'''
